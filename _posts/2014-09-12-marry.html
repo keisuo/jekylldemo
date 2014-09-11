@@ -77,8 +77,7 @@
 						</div>
 						<!-- Button. Note down the class "button" -->
 						<div class="button">
-							<a href="#wedding" class="anchorLink">宴席安排</a> &nbsp; <a
-								href="http://www.wedxt.com/s-39e0/p-36d6c5">留言回执</a>
+							<a href="#wedding" class="anchorLink">宴席安排</a>
 						</div>
 						<!--fn-声音显示 -->
 						<section class="fn-audio">
@@ -91,9 +90,8 @@
 									autoplay="autoplay">
 									<source
 										src="http://www.wedxt.com/musics/mp3/fanweiqi_zui-zhong-yao-de-jue-ding.mp3"
-										type="audio/mpeg">
-        您的浏览器不支持HTML5音频格式
-      
+										type="audio/mpeg">您的浏览器不支持HTML5音频格式
+								
 								</audio>
 							</div>
 						</section>
@@ -275,47 +273,66 @@
 							id="cityname" name="cityname" value="" style="display: none">
 						<DIV id="optionsNarrative"></DIV>
 						<script>
-                    var SAMPLE_ADVANCED_POST = 'http://api.map.baidu.com/geocoder/v2/?ak=5dbd6ef42378bdd6ed202331c10a27c8&callback=renderOption&output=json';
-                    var advancedOptions = '';
-                    var address;
+							var SAMPLE_ADVANCED_POST = 'http://api.map.baidu.com/geocoder/v2/?ak=5dbd6ef42378bdd6ed202331c10a27c8&callback=renderOption&output=json';
+							var advancedOptions = '';
+							var address;
 
-                    function showOptionsURL(type) {
-                      advancedOptions = SAMPLE_ADVANCED_POST;   
-                      address = document.getElementById('location').value; 
-                      var cityname=document.getElementById('cityname').value;
-                      advancedOptions+="&address="+address;
-                      advancedOptions+="&city="+cityname;
+							function showOptionsURL(type) {
+								advancedOptions = SAMPLE_ADVANCED_POST;
+								address = document.getElementById('location').value;
+								var cityname = document
+										.getElementById('cityname').value;
+								advancedOptions += "&address=" + address;
+								advancedOptions += "&city=" + cityname;
 
-                      var safe = advancedOptions;
-                    };
+								var safe = advancedOptions;
+							};
 
-                    function renderOption(response) {
-                      var html = '';
-                      if (response.status ) {
-                        var text = "无正确的返回结果:\n";
-                        document.getElementById('optionsNarrative').innerHTML = text;
-                        return;
-                      };
-                      var location = response.result.location;
-                      var uri = 'http://api.map.baidu.com/marker?location='+ location.lat +','+location.lng +'&title=宴席位置&content='+address+'&output=html';
-                      var staticimageUrl = "http://api.map.baidu.com/staticimage?center=" +location.lng+','+location.lat + "&markers=" + location.lng+','+location.lat;
+							function renderOption(response) {
+								var html = '';
+								if (response.status) {
+									var text = "无正确的返回结果:\n";
+									document.getElementById('optionsNarrative').innerHTML = text;
+									return;
+								}
+								;
+								var location = response.result.location;
+								var uri = 'http://api.map.baidu.com/marker?location='
+										+ location.lat
+										+ ','
+										+ location.lng
+										+ '&title=宴席位置&content='
+										+ address
+										+ '&output=html';
+								var staticimageUrl = "http://api.map.baidu.com/staticimage?center="
+										+ location.lng
+										+ ','
+										+ location.lat
+										+ "&markers="
+										+ location.lng
+										+ ','
+										+ location.lat;
 
-                      html += '<p style="text-align:center"><a target="_blank" href="' + uri + '"><img class="img-responsive" src="' + staticimageUrl + 'width=100%&height=200&zoom=14"/></a></p><p style="text-align:center; line-heigt:30px;">山西省太原市清源镇闫上街11号</p><div class="text-center"><a target="_blank" href="' + uri + '" class="btn btn-lg btn-danger"> 打开电子地图 </a></div>' ;
-                      document.getElementById('optionsNarrative').innerHTML = html;
-                      return;
-                      //document.getElementById('optionsNarrative').innerHTML = html;
-                    }
+								html += '<p style="text-align:center"><a target="_blank" href="' + uri + '"><img class="img-responsive" src="'
+										+ staticimageUrl
+										+ 'width=100%&height=200&zoom=14"/></a></p><p style="text-align:center; line-heigt:30px;">山西省太原市清源镇闫上街11号</p><div class="text-center"><a target="_blank" href="' + uri + '" class="btn btn-lg btn-danger"> 打开电子地图 </a></div>';
+								document.getElementById('optionsNarrative').innerHTML = html;
+								return;
+								//document.getElementById('optionsNarrative').innerHTML = html;
+							}
 
-                    function doOptions() {
-                      var script = document.createElement('script');
-                      script.type = 'text/javascript';
-                      showOptionsURL('buttonClick');
-                      var newURL = advancedOptions.replace('5dbd6ef42378bdd6ed202331c10a27c8','5dbd6ef42378bdd6ed202331c10a27c8');
-                      script.src = newURL;
-                      document.body.appendChild(script);
-                    };
-                    doOptions();
-                  </script>
+							function doOptions() {
+								var script = document.createElement('script');
+								script.type = 'text/javascript';
+								showOptionsURL('buttonClick');
+								var newURL = advancedOptions.replace(
+										'5dbd6ef42378bdd6ed202331c10a27c8',
+										'5dbd6ef42378bdd6ed202331c10a27c8');
+								script.src = newURL;
+								document.body.appendChild(script);
+							};
+							doOptions();
+						</script>
 
 						<div style="height: 10px;"></div>
 					</div>
