@@ -86,18 +86,35 @@
 									<span class='css_sprite01 audio_open'></span><span
 										class='css_sprite01 audio_close'></span>
 								</p>
-								<audio id="car_audio" controls preload="preload"
-									autoplay="autoplay">
-									<source
-										src="http://www.wedxt.com/musics/mp3/fanweiqi_zui-zhong-yao-de-jue-ding.mp3"
-										type="audio/mp3">
-									<embed height="100" width="100" src="http://www.wedxt.com/musics/mp3/fanweiqi_zui-zhong-yao-de-jue-ding.mp3" />	
-									您的浏览器不支持HTML5音频格式
-								
+								<!-- 
+								<audio id="car_audio" controls autoplay="autoplay">
+									<source src="http://www.wedxt.com/musics/mp3/fanweiqi_zui-zhong-yao-de-jue-ding.mp3"
+										type="audio/mpeg">
 								</audio>
+								-->
+							    <audio controls="controls">
+                                    <source src="http://www.w3school.com.cn/i/horse.ogg" type="audio/ogg">
+                                    <embed height="100" width="100" src="http://www.w3school.com.cn/i/horse.ogg" />
+                                </audio>
 							</div>
 						</section>
 						<!--fn-声音显示 end-->
+						<!--fn-视频显示 -->
+                        <section class="fn-audio">
+                            <div class="btn">
+                                <p class="btn_audio">
+                                    <span class='css_sprite01 audio_open'></span><span
+                                        class='css_sprite01 audio_close'></span>
+                                </p>
+                                <video id="car_video" width="320" height="240" controls autoplay="autoplay">
+								  <source src="http://www.w3school.com.cn/i/movie.ogg" type="video/ogg" />
+								  <object data="http://www.w3school.com.cn/i/movie.ogg" width="320" height="240">
+								    <embed width="320" height="240" src="http://www.w3school.com.cn/i/movie.ogg" />
+								  </object>
+								</video>
+                            </div>
+                        </section>
+                        <!--fn-视频显示 end-->
 					</div>
 				</div>
 			</div>
