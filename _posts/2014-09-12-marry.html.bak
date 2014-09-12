@@ -27,10 +27,10 @@
 
 <!-- Respond JS for IE8 -->
 <script
-	src="../../../assets/javascripts//respond.min.js"></script>
+	src="../../../assets/javascripts/respond.min.js"></script>
 <!-- HTML5 Support for IE -->
 <script
-	src="../../../assets/javascripts//html5shiv.js"></script>
+	src="../../../assets/javascripts/html5shiv.js"></script>
 
 <!-- Favicon -->
 <link rel="shortcut icon"
@@ -87,7 +87,7 @@
 										class='css_sprite01 audio_close'></span>
 								</p>
 							  <audio id="car_audio" controls>
-                   <source src="http://qzone.haoduoge.com/music/F6F60BASCV2E6847E699C9E76CA9545111017.mp3" type="audio/mpeg">
+                   <source src="../../../assets/mp3/wmjhb.mp3" type="audio/mpeg">
                    <embed height="100" width="100" src="http://qzone.haoduoge.com/music/F6F60BASCV2E6847E699C9E76CA9545111017.mp3" />
                 </audio>
 							</div>
