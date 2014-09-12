@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 header{
-  background:#f05557 url("../../../assets/images/head-red.jpg") center center;
+  background:#f05557 url("../img/head-red.jpg") center center;
   color:#fff;
 }
 
