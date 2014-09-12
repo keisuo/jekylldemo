@@ -403,7 +403,7 @@ line-height:20px;
 
 .wedding{
 padding:10px 20px;
-background:#fafafa url('../images/wave.png') repeat;
+background:#fafafa url('../img/wave.png') repeat;
 border-radius:10px;
 margin-bottom:10px;
 border:1px solid #eee;
