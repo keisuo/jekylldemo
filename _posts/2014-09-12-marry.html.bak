@@ -8,7 +8,7 @@
 
 <!-- Title -->
 <title>我们要结婚啦</title>
-<meta name="description" content="X VS Y我们要结婚啦" />
+<meta name="description" content="我要和我们焕焕结婚啦,开启我们新的幸福之旅!" />
 
 <!-- [[head start]] -->
 <!-- Stylesheets -->
@@ -355,7 +355,7 @@
 										+ '&title=宴席位置&content='
 										+ address
 										+ '&output=html';
-								var staticimageUrl = "../../../assets/images/staticimage.png?";
+								var staticimageUrl = "../../../assets/images/staticimage.png";
 
 								html += '<p style="text-align:center"><a target="_blank" href="' + uri + '"><img class="img-responsive" src="'
 										+ staticimageUrl
