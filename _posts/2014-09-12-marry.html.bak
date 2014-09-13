@@ -360,9 +360,8 @@
 			var elementClick=$(caller).attr("href")
 			var destination=$(elementClick).offset().top;$("html:not(:animated),body:not(:animated)").animate({scrollTop:destination},settings.speed,function(){window.location.hash=elementClick});return false;})})}
 	   	$(window).load(function(){$('.flexslider').flexslider({animation:"slide",controlNav:true,pauseOnHover:true,slideshowSpeed:15000});});	
+			var config={img_url:$('.slides li img')[0]['src'],link:location.href,desc:$('meta[name="description"]').attr('content'),title:$('title').text()};document.addEventListener('WeixinJSBridgeReady',function(){var WJ=WeixinJSBridge;WJ.on('menu:share:appmessage',function(){WJ.invoke('sendAppMessage',config,function(res){});});WJ.on('menu:share:timeline',function(){WJ.invoke('shareTimeline',config,function(res){});});WJ.on('menu:share:weibo',function(){WJ.invoke('shareWeibo',config,function(res){});});}); 
 	</script>
-	<script
-		src="../../../assets/javascripts/weixin.share.js"></script>
 	<!-- [[foot end]] -->
 	<footer style="text-align: center; color: #ffd800; margin-right: 20px">
 		<div style="margin-top: 40px;" class="text-center"></div>
