@@ -321,12 +321,13 @@
 					<h4>
 						<i class="fa fa-home"></i> 宴席地点
 					</h4>
+          <p>山西省太原市清源镇307国道橡胶厂对面,西木庄路口芙蓉王大酒店</p>
 					<!-- baidu map 2 start -->
 					<div class="show_map">
 						<div style="height: 10px;"></div>
 						<div id="allmap" class="mid"></div>
 						<INPUT style="WIDTH: 100%" id="location" name="location"
-							value="山西省太原市清源镇迎宪村闫上街" type="hidden"> <INPUT
+							value="山西省太原市清源镇闫上街14号" type="hidden"> <INPUT
 							id="cityname" name="cityname" value="" style="display: none">
 						<DIV id="optionsNarrative"></DIV>
 						<script>
@@ -393,7 +394,7 @@
 						<div style="height: 10px;"></div>
 					</div>
 					<!-- baidu map 2 end -->
-					<p>山西省太原市清源镇307国道橡胶厂对面,西木庄路口芙蓉王大酒店</p>
+					
 				</div>
 			</div>
 		</div>
