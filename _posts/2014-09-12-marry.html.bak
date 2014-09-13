@@ -111,7 +111,7 @@
 					<div class="well center">
 						<div class="head">
 							<!-- Our love story -->
-							<h3>我和你的爱情宣言</h3>
+							<h3>爱情宣言</h3>
 							<div class="bor"></div>
 							<div class="text-center">
 								<p>
@@ -355,14 +355,7 @@
 										+ '&title=宴席位置&content='
 										+ address
 										+ '&output=html';
-								var staticimageUrl = "http://api.map.baidu.com/staticimage?center="
-										+ location.lng
-										+ ','
-										+ location.lat
-										+ "&markers="
-										+ location.lng
-										+ ','
-										+ location.lat;
+								var staticimageUrl = "../../../assets/images/";
 
 								html += '<p style="text-align:center"><a target="_blank" href="' + uri + '"><img class="img-responsive" src="'
 										+ staticimageUrl
