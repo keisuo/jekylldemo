@@ -355,7 +355,7 @@
 										+ '&title=宴席位置&content='
 										+ address
 										+ '&output=html';
-								var staticimageUrl = "../../../assets/images/";
+								var staticimageUrl = "../../../assets/images/staticimage.png?";
 
 								html += '<p style="text-align:center"><a target="_blank" href="' + uri + '"><img class="img-responsive" src="'
 										+ staticimageUrl
