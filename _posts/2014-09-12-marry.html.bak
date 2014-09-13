@@ -54,8 +54,6 @@
 	<!-- [[header start]] -->
 	<a name="home" id="home"></a>
 	<!-- [[header end]] -->
-
-
 	<!-- Header -->
 	<header>
 		<div class="container">
@@ -106,7 +104,6 @@
 	<!-- 爱情故事 开始-->
 	<a name="about" id="about"></a>
 	<div class="border"></div>
-
 	<div class="aboutus">
 		<div class="container">
 			<div class="row">
@@ -116,7 +113,7 @@
 							<!-- Our love story -->
 							<h3>爱情故事</h3>
 							<div class="bor"></div>
-							<div style="text-align:left">
+							<div >
 								<p>
 									这是我的爱情宣言<br/>
 									我要告诉全世界<br/>
@@ -231,8 +228,8 @@
 					<h4>
 						<i class="fa fa-heart"></i> 联系方式
 					</h4>
-					男方电话： <a href="tel:1892226082X">1892226082X</a>
-					<br /> 女方电话： <a href="tel:1892226082X">1892226082X</a>
+					男方电话:<a href="tel:1892226082X">1892226082X</a><br/>
+					女方电话:<a href="tel:1892226082X">1892226082X</a>
 				</div>
 			</div>
 
@@ -242,7 +239,7 @@
 					<h4>
 						<i class="fa fa-glass"></i> 宴席行程安排
 					</h4>
-					<div style="margin-left: 20px;" class="text-center">
+					<div style="margin-left: 20px;" class="text-left">
 						一、化妆起床<br/>
 						7:00新郎发型做好后到达女方娘家附近等待新娘妆完成<br/>
 						二、婚车<br/>
