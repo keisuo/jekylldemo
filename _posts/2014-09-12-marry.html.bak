@@ -37,12 +37,16 @@
 	href="../../../assets/images/favicon.png">
 <!-- [[head end]] -->
 
-<link rel="stylesheet" href="../../../assets/css/style-switcher.css">
+<style type="text/css">
+body {background-color: red}
+p {margin-left: 20px}
+</style>
 
 
 <!-- baidu map 1 start -->
-<script type="text/javascript"
-	src="../../../assets/javascripts/map_baidu_api.js"></script>
+<script type="text/javascript">
+ (function(){window.BMap_loadScriptTime=(new Date).getTime();document.write('<script type="text/javascript" src="http://api.map.baidu.com/getscript?type=quick&file=api&ak=xD0rO5z4aNh1dkf0mTOb1cFV&t=20140109092002">');document.write('</script><script type="text/javascript" src="http://api.map.baidu.com/getscript?type=quick&file=feature&ak=xD0rO5z4aNh1dkf0mTOb1cFV&t=20140109092002"></script>');})();	
+</script>
 <!-- baidu map 1 end -->
 </head>
 
