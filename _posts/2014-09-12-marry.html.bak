@@ -233,7 +233,6 @@
 					</h4>
 					男方电话： <a href="tel:1892226082X">1892226082X</a>
 					<br /> 女方电话： <a href="tel:1892226082X">1892226082X</a>
-					<hr />
 				</div>
 			</div>
 
@@ -243,7 +242,7 @@
 					<h4>
 						<i class="fa fa-glass"></i> 宴席行程安排
 					</h4>
-					<div style="text-align:left">
+					<div style="margin-left: 20px;" class="text-center">
 					一、化妆起床<br/>
 					7:00新郎发型做好后到达女方娘家附近等待新娘妆完成<br/>
 					二、婚车<br/>
@@ -395,9 +394,7 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="border"></div>
-	<hr />
 	<div class="itop">
 		<a href="#home" class="anchorLink"><i class="fa fa-chevron-up"></i></a>
 	</div>
@@ -415,8 +412,5 @@
 			var config={img_url:$('.slides li img')[0]['src'],link:location.href,desc:$('meta[name="description"]').attr('content'),title:$('title').text()};document.addEventListener('WeixinJSBridgeReady',function(){var WJ=WeixinJSBridge;WJ.on('menu:share:appmessage',function(){WJ.invoke('sendAppMessage',config,function(res){});});WJ.on('menu:share:timeline',function(){WJ.invoke('shareTimeline',config,function(res){});});WJ.on('menu:share:weibo',function(){WJ.invoke('shareWeibo',config,function(res){});});}); 
 	</script>
 	<!-- [[foot end]] -->
-	<footer style="text-align: center; color: #ffd800; margin-right: 20px">
-		<div style="margin-top: 20px;" class="text-center"></div>
-	</footer>
 </body>
 </html>
