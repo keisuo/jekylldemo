@@ -12,18 +12,8 @@
 <!-- [[head start]] -->
 <!-- Stylesheets -->
 <link
-	href="../../../assets/css/bootstrap.min.css"
+	href="../../../assets/css/combile.css"
 	rel="stylesheet">
-<link
-	href="../../../assets/css/flexslider.css"
-	rel="stylesheet">
-<link href="../../../assets/css/font-awesome.min.css"
-	rel="stylesheet">
-<link
-	href="../../../assets/css/style.css"
-	rel="stylesheet">
-<link id="theme" rel="stylesheet"
-	href="../../../assets/css/thume-red.css">
 
 <!-- Respond JS for IE8 -->
 <script
@@ -61,7 +51,11 @@
 
 <!-- baidu map 1 start -->
 <script type="text/javascript">
- (function(){window.BMap_loadScriptTime=(new Date).getTime();document.write('<script type="text/javascript" src="http://api.map.baidu.com/getscript?type=quick&file=api&ak=xD0rO5z4aNh1dkf0mTOb1cFV&t=20140109092002">');document.write('</script><script type="text/javascript" src="http://api.map.baidu.com/getscript?type=quick&file=feature&ak=xD0rO5z4aNh1dkf0mTOb1cFV&t=20140109092002"></script>');})();	
+ (function(){
+ 	 window.BMap_loadScriptTime=(new Date).getTime();
+ 	 document.write('<script type="text/javascript" src="http://api.map.baidu.com/getscript?type=quick&file=api&ak=xD0rO5z4aNh1dkf0mTOb1cFV&t=20140109092002">');
+ 	 document.write('</script><script type="text/javascript" src="http://api.map.baidu.com/getscript?type=quick&file=feature&ak=xD0rO5z4aNh1dkf0mTOb1cFV&t=20140109092002"></script>');
+ })();	
 </script>
 <!-- baidu map 1 end -->
 </head>
