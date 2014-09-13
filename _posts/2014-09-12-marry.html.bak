@@ -359,7 +359,7 @@
 
 								html += '<p style="text-align:center"><a target="_blank" href="' + uri + '"><img class="img-responsive" src="'
 										+ staticimageUrl
-										+ 'width=100%&height=200&zoom=14"/></a></p><p style="text-align:center; line-heigt:30px;">山西省太原市清源镇闫上街11号</p><div class="text-center"><a target="_blank" href="' + uri + '" class="btn btn-lg btn-danger"> 打开电子地图 </a></div>';
+										+ '"/></a></p><p style="text-align:center; line-heigt:30px;">山西省太原市清源镇闫上街11号</p><div class="text-center"><a target="_blank" href="' + uri + '" class="btn btn-lg btn-danger"> 打开电子地图 </a></div>';
 								document.getElementById('optionsNarrative').innerHTML = html;
 								return;
 							}
