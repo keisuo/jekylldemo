@@ -86,7 +86,7 @@ a:hover,a:active,a:focus{outline:0;}
 header{text-align:center;padding-top:70px;color:#fff;margin-bottom:20px;}
 header h1{text-shadow:0px 0px 1px #000;}
 header h2 span{color:#777;}
-header .well{color:#666;background:#fff url('../images/well.png') repeat;padding:13px 15px;border:1px solid #406903;display:inline-block;border-radius:10px;max-width:400px;font-size:13px;line-height:24px;opacity:0.8;}
+header .well{color:#666;background:#fff url('../images/well.png') repeat;padding:13px 15px;box-shadow:inset 0px 0px 2px #111;border:1px solid #406903;display:inline-block;border-radius:10px;max-width:400px;font-size:13px;line-height:24px;opacity:0.8;}
 header h3{font-size:18px;line-height:23px;}
 header .hero img{max-width:40px;}
 .head{text-align:center;margin-bottom:20px;}
