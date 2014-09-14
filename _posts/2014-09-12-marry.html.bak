@@ -232,30 +232,6 @@
 							quality="100"
 							src="../../../assets/images/10.png" />
 						</li>
-						<!-- Slide #1 -->
-						<li>
-							<!-- Image --> <img alt="Original" class="img-responsive"
-							quality="100"
-							src="../../../assets/images/4263_original.jpg" />
-						</li>
-						<!-- Slide #1 -->
-						<li>
-							<!-- Image --> <img alt="Original" class="img-responsive"
-							quality="100"
-							src="../../../assets/images/4264_original.jpg" />
-						</li>
-						<!-- Slide #1 -->
-						<li>
-							<!-- Image --> <img alt="Original" class="img-responsive"
-							quality="100"
-							src="../../../assets/images/4265_original.jpg" />
-						</li>
-						<!-- Slide #1 -->
-						<li>
-							<!-- Image --> <img alt="Original" class="img-responsive"
-							quality="100"
-							src="../../../assets/images/4266_original.jpg" />
-						</li>
 					</ul>
 				</div>
 				<!-- Slider ends -->
